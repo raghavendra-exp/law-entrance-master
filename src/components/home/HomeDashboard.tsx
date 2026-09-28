@@ -37,8 +37,8 @@ export const HomeDashboard: React.FC = () => {
     <div className="space-y-8 animate-fade-in pb-16">
       {/* Hero Header */}
       <div className="bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 text-white rounded-3xl p-6 md:p-10 shadow-2xl relative overflow-hidden border border-indigo-900/50">
-        <div className="absolute -right-10 -bottom-10 opacity-10 pointer-events-none">
-          <Scale className="w-96 h-96 text-white" />
+        <div className="absolute right-0 bottom-0 opacity-10 pointer-events-none overflow-hidden max-w-full">
+          <Scale className="w-64 sm:w-96 h-64 sm:h-96 text-white" />
         </div>
 
         <div className="relative z-10 max-w-3xl space-y-4">
